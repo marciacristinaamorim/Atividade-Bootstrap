@@ -13,8 +13,10 @@
             border:solid 1 pix #b82525;
             margin-top: 10px;
             margin-bottom: 10 px;
-
-
+        }
+        .dark {
+            background: #0e0d0d;
+            color:antiquewhite;
         }
     </style>
     <title>Atividade do Bootstrap</title>
@@ -61,17 +63,49 @@
                 </div>       
             </div>
         <div class= "row">
-            <div class= "col 8 cor text center">
+            <div class= "col-sm-8 col-md-6 dark text center">
                 coluna1
             </div>
-            <div class= "col 4 cor text center">
+            <div class= "col-sm-4 col-md-6 dark text center">
                 coluna2
             </div>
             <div class="row">
                 <div class= "col6 cor text center">
                     coluna6
             </div>
-        </div>
+    <!--alinhamento acrescentando-->
+        <div class= "row align-items-start" style= "min-height: 250px; border solid red";>
+            <div class= "col-8 dark text center">
+                Alinhamento de linha <br>
+                Alinhamento de linha <br>
+                Alinhamento de linha <br>
+                Alinhamento de linha 
+            </div>
+        <div class= "col-4 dark text center">
+                Alinhamento de linha
+            </div>
+    <!--alinhamento acrescentando-->
+                <!--Alinhamento individual de coluna-->
+            <div class= "row" style= "min-height: 250px;border:solid blanchedalmond;">
+                <div class= "col-8 align-self-end cor text center">
+                    Alinhamento individual
+                <div class= "col-4 align-self-center cor text center">
+                    Alinhamento individual
+                </div>    
+                </div>
+            </div>
+                <!--Alinhamento individual de coluna-->
+                <!-- Alinhamento horizontal-->
+                <div class= "row" style= "min-height: 250px;border solid green;">
+                <div clas= col2 dark text center>
+                    Alinhamento horizontal
+                </div>
+                <div class=col2 dark text center>
+                    Alinhamento horizontal
+                </div>
+                </div>
+                <!-- Alinhamento horizontal-->
+            </div>
     </section>
 </body>
 </html>
